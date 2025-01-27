@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Örneği</title>
+    <link rel="stylesheet" href="İletişim.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Web Sitem</h1>
+            <nav>
+                <ul>
+                    <li><a href="ansayfa.html">Ana Sayfa</a></li>
+                    <li><a href="Hakkımızda.html">Hakkında</a></li>
+                    <li><a href="Hizmetler.htm">Hizmetler</a></li>
+                    <li><a href="İletişim.html">İletişim</a></li>
+                    <li><a href="Kayıt.html">Kayıt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Bize yandaki bilgilerden ulaşabilirsiniz.</p>
+            <ul>
+                <li>Telefon: +90 245 651 25 35</li>
+                <li>E-posta: güvenilirlik@gmail.com</li>
+                <li>Sülüntepe Mahallesi Yunus Emre Caddesi No: 1/1 Şeyhli 34913 Pendik İstanbul</li>
+            </ul>
+            <form action="iletisim.php" method="POST">
+                <label for="name">Adınız:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">E-posta:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mesajınız:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Web Sitenizin Adı. Tüm hakları saklıdır.</p>
+                <ul class="social-media">
+                    <li><a href="#facebook">Facebook</a></li>
+                    <li><a href="#twitter">Twitter</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                    <li><a href="#linkedin">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
